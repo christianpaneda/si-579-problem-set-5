@@ -1,0 +1,165 @@
+@import url("https://use.typekit.net/tni5gmg.css");
+
+body{
+  background-color: #f0e9df;
+  margin: 20px 20px 0px 20px;
+}
+
+h1{
+  font-family: ivypresto-display, serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 64px;
+  letter-spacing: 2px;
+}
+
+strong{
+  font-family: ivypresto-display, serif;
+  font-weight: 300;
+  color: #96355B;
+}
+
+p, h2{
+  font-family: ivypresto-display, serif;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 64px;
+}
+
+.fun-header{
+  margin-bottom: 30px;
+}
+
+.fun-text{
+  font-size: 32px; 
+}
+
+h3{
+  font-family: "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700; 
+  letter-spacing: 1px;
+}
+
+rect{
+  fill: #DE6B48; 
+}
+
+nav{
+  border-top: solid 0.5px black; 
+  border-bottom: solid 0.5px black; 
+  width: 100%;
+  margin: 15px 0px 15px 0px;
+  font-family: "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700; 
+  letter-spacing: 1px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li#resume{
+  float:right;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover {
+  background-color: #DE6B48;
+}
+
+
+
+article{
+  margin-bottom: 20px;
+}
+
+footer{
+ 
+  bottom: 0;
+  border-top: solid 0.5px black;
+  width: 100%;
+  margin-right: 20px;
+}
+
+p.footer{
+  font-family: "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700; 
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+a img{
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+main.grid{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 32px 32px;
+  grid-auto-flow: dense;
+}
+
+main.bio{
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+main img.about{
+  grid-column: 2 / span 4;
+  width: 75%;
+  margin-bottom: 20px;
+}
+
+p.description{
+  grid-column: 6 / span 6;
+  font-size: 48px;
+}
+
+text{
+  font-family: "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-anchor: middle;
+
+}
+
+@media (max-width: 1000px){
+  p.footer{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 800px){
+  p.footer{
+    font-size: 16px;
+  }
+
+  p{
+    font-size: 48px;
+  }
+
+
+
+}
